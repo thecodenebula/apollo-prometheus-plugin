@@ -1,6 +1,2 @@
-export const extractTopLevelQueriesOrMutations = (requestContext) => {
-  if (!requestContext.operation) {
-    return [];
-  }
-  return requestContext.operation.selectionSet.selections.map((q) => q.name.value);
-};
+export const filterUndefined = (from: { [label: string]: string | number | undefined }) =>
+  Object.fromEntries(Object.entries(from).filter(([_, o]) => o));
