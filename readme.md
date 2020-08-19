@@ -1,4 +1,4 @@
-# Apollo Prometheus Plugin ![Tests](https://github.com/thecodenebula/apollo-prometheus-plugin/workflows/Tests/badge.svg)
+# Apollo Prometheus Plugin ![Tests](https://github.com/thecodenebula/apollo-prometheus-plugin/workflows/Tests/badge.svg) ![npm (scoped)](https://img.shields.io/npm/v/@thecodenebula/apollo-prometheus-plugin)
 
 ## Install
 
