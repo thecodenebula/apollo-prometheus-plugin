@@ -1,0 +1,36 @@
+{
+  "name": "apollo-prometheus-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --build",
+    "build:watch": "tsc --watch",
+    "prettier": "prettier . --write",
+    "prettier:watch": "onchange '**/*.(ts|json)' -- prettier --write {{changed}}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grillorafael/apollo-prometheus-plugin.git"
+  },
+  "author": "Rafael Abreu <grillorafael@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grillorafael/apollo-prometheus-plugin/issues"
+  },
+  "homepage": "https://github.com/grillorafael/apollo-prometheus-plugin#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "apollo-server-plugin-base": "^0.9.1",
+    "graphql": "^15.3.0",
+    "jest": "^26.4.0",
+    "onchange": "^7.0.2",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "prom-client": "^12.0.0"
+  }
+}
