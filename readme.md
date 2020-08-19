@@ -2,7 +2,7 @@
 
 ## Install
 
-`npm install apollo-prometheus-plugin`
+`npm install @thecodenebula/apollo-prometheus-plugin`
 
 ## Usage
 
@@ -10,6 +10,7 @@
 import { ApolloServer, gql } from 'apollo-server-express';
 import { prometheusPlugin } from 'apollo-prometheus-plugin';
 import { Registry } from 'prom-client';
+import { prometheusPlugin } from '@thecodenebula/apollo-prometheus-plugin';
 
 const register = new Registry();
 
