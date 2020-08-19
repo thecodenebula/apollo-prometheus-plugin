@@ -1,4 +1,4 @@
-# Apollo Prometheus Plugin
+# Apollo Prometheus Plugin ![Tests](https://github.com/thecodenebula/apollo-prometheus-plugin/workflows/Tests/badge.svg)
 
 ## Install
 
