@@ -29,3 +29,13 @@ app.listen({ port: 8080 }, () => {
   console.log('Listening');
 });
 ```
+
+## Available metrics and labels
+
+| metric               	| type      	| labels                                	|
+|----------------------	|-----------	|---------------------------------------	|
+| errors_encountered   	| Counter   	| operationName <br>operation <br>error 	|
+| requests_resolved    	| Counter   	| operationName<br>operation            	|
+| attributes_requested 	| Counter   	| fieldName<br>parentType               	|
+| resolver_time        	| Histogram 	| fieldName<br>parentType<br>returnType 	|
+| total_request_time   	| Histogram 	| operationName<br>operation            	|
