@@ -4,6 +4,7 @@
   "description": "An Apollo plugin to expose GraphQL metrics as prometheus metrics",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "private": false,
   "scripts": {
     "test": "jest",
     "build": "tsc --build",
