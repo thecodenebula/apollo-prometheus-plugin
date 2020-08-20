@@ -4,7 +4,11 @@
   "description": "An Apollo plugin to expose GraphQL metrics as prometheus metrics",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "keywords": ["prometheus", "apollo", "plugin"],
+  "keywords": [
+    "prometheus",
+    "apollo",
+    "plugin"
+  ],
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -32,11 +36,11 @@
     "apollo-server-plugin-base": "^0.9.1",
     "apollo-server-testing": "^2.16.1",
     "graphql": "^15.3.0",
-    "jest": "^26.4.0",
+    "jest": "^26.4.1",
     "onchange": "^7.0.2",
     "prettier": "^2.0.5",
     "ts-jest": "^26.2.0",
-    "typescript": "^3.9.7"
+    "typescript": "^4.0.2"
   },
   "dependencies": {
     "prom-client": "^12.0.0"
