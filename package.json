@@ -1,6 +1,6 @@
 {
   "name": "@thecodenebula/apollo-prometheus-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Apollo plugin to expose GraphQL metrics as prometheus metrics",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
