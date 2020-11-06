@@ -22,6 +22,7 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
   plugins: [prometheusPlugin(register, { enableNodeMetrics: true })],
+  tracing: true
 });
 
 server.applyMiddleware({ app, path: '/' });
